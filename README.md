@@ -13,7 +13,6 @@ Before you begin, ensure you have the following installed:
 - [PHP](https://www.php.net/) (^8.1)
 - [Node.js](https://nodejs.org/) (^14)
 - [Composer](https://getcomposer.org/)
-- [Yarn](https://yarnpkg.com/)
 
 ### Installation
 
@@ -32,7 +31,7 @@ Before you begin, ensure you have the following installed:
 3. Install Node.js dependencies:
 
    ```bash
-   yarn install
+   npm install
    ```
 
 4. Copy the `.env.example` file to `.env` and configure your environment variables.
@@ -58,7 +57,7 @@ Before you begin, ensure you have the following installed:
    For the frontend development with Vite.js, use:
 
    ```bash
-   yarn dev
+   npm run dev
    ```
 
 8. Visit [http://localhost:8000](http://localhost:8000) in your browser.
@@ -72,7 +71,7 @@ For frontend development, we use React with Vite.js. The source files are locate
 To start the development server:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ### Backend (Laravel)
@@ -90,7 +89,7 @@ php artisan serve
 To build the production-ready assets, run:
 
 ```bash
-yarn build
+npm run build
 ```
 
 This will generate optimized and minified assets in the `public` directory.
